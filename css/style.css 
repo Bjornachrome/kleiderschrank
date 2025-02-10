@@ -1,57 +1,27 @@
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-    text-align: center;
-}
-
 form {
+    width: 50%;
+    margin: auto;
     background: white;
     padding: 20px;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    display: inline-block;
-    margin-top: 50px;
 }
 
-input, button {
-    display: block;
-    margin: 10px auto;
+input, select, button {
+    width: 100%;
     padding: 10px;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
 }
 
-nav {
-    background: #333;
-    padding: 10px;
-}
-
-nav a {
-    color: white;
-    margin: 0 10px;
-    text-decoration: none;
-}
-header {
+button {
     background: #4CAF50;
     color: white;
-    padding: 20px;
-    text-align: center;
-    border-radius: 5px;
+    border: none;
+    cursor: pointer;
 }
 
-h1 {
-    font-size: 2em;
-    margin-bottom: 10px;
-}
-
-.btn {
-    display: inline-block;
-    padding: 10px 20px;
-    margin: 10px;
-    background: #333;
-    color: white;
-    text-decoration: none;
-    border-radius: 5px;
-}
-
-.btn:hover {
-    background: #555;
+button:hover {
+    background: #45a049;
 }
